@@ -1,0 +1,17 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#analog-clock{
+    height: 50vh;
+    width: 50vw;
+    display: block;
+    background-color:darkorange;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}

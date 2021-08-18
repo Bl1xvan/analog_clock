@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#analog-clock {
+  height: 50vh;
+  width: 50vw;
+  display: block;
+  background-color: darkorange;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
