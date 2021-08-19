@@ -1,4 +1,4 @@
-*, *::after, *::before {
+*, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16,17 +16,12 @@ body {
   position: relative;
 }
 
-.hours {
+.number {
+  display: block;
   position: absolute;
-}
-
-.twelve {
-  top: 0;
+  height: 100%;
+  width: 5px;
+  border: 2px solid black;
   right: 50%;
-}
-
-.three {
-  top: 50%;
-  right: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

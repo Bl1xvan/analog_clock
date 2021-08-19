@@ -1,7 +1,6 @@
-*, *::after, *::before{
+*, *::before, *::after{
     box-sizing: border-box;
 }
-
 body{
     margin: 0;
 }
@@ -16,16 +15,12 @@ body{
 
 }
 
-.hours{
+.number{
+    display: block;
     position: absolute;
-}
-
-.twelve{
-    top: 0;
+    height: 250px;
+    width: 5px;
+    border: 2px, solid, black;
     right: 50%;
 }
 
-.three{
-    top: 50%;
-    right: 100%;
-}
