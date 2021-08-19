@@ -1,6 +1,8 @@
-const hours = Array.from(document.querySelectorAll('[data-hour]'));
+const numbers = Array.from(document.querySelectorAll(".number"));
+const twist = Array.from(document.querySelectorAll(".twist"));
 
-for(let i = 0; i<hours.length; i++){
-    let x = 30 * i;
-    console.log(x);
+for(let n in numbers){
+    let x = 30 * n;
+    numbers[n].style.transform = `rotate(`+x+`deg)`;
+    twist[n].style.transform = `rotate(-`+x+`deg)`;
 }

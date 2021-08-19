@@ -3,24 +3,45 @@
 }
 body{
     margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
-#analog-clock{
+#analog-clock {
+    margin: auto;
     height: 500px;
     width: 500px;
     display: block;
-    background-color:darkorange;
-    border: 5px solid black;
+    background-color: darkorange;
     position: relative;
-
-}
-
-.number{
+    border-radius: 50%;
+    border: 5px solid black;
+  }
+  
+  .number {
     display: block;
     position: absolute;
-    height: 250px;
+    height: 100%;
     width: 5px;
     border: 2px, solid, black;
     right: 50%;
-}
+  }
+
+  .hours{
+      position: relative;
+  }
+
+  .twist{
+      position: absolute;
+      top: 0;
+  }
+
+  #minute-hand{
+      position: absolute;
+      transform: rotateX(3.15rad);
+      right: 50%;
+      height: 50%;
+      width: 3px;
+      background-color: black;
+  }
 
