@@ -40,11 +40,14 @@ body {
 
 #minute-hand {
   position: absolute;
-  -webkit-transform: rotateX(3.15rad);
-          transform: rotateX(3.15rad);
-  right: 50%;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
   height: 50%;
   width: 3px;
-  background-color: black;
+  border: 2px solid black;
 }
 /*# sourceMappingURL=styles.css.map */

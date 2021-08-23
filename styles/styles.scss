@@ -24,7 +24,7 @@ body{
     height: 100%;
     width: 5px;
     border: 2px, solid, black;
-    right: 50%;
+    right: 50%
   }
 
   .hours{
@@ -38,10 +38,13 @@ body{
 
   #minute-hand{
       position: absolute;
-      transform: rotateX(3.15rad);
-      right: 50%;
+      left: 50%;
+      bottom: 50%;
+      transform: translateX(-50%);
+      transform-origin: bottom;
       height: 50%;
       width: 3px;
-      background-color: black;
+      border: 2px solid black;
   }
+
 
