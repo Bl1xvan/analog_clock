@@ -36,7 +36,7 @@ body {
 .hours {
   position: relative;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.25em;
   color: #371d5d;
 }
 
@@ -45,7 +45,7 @@ body {
   top: 0;
 }
 
-#minute-hand, #second-hand{
+.hand{
   position: absolute;
   left: 50%;
   bottom: 50%;
@@ -53,7 +53,20 @@ body {
           transform: translateX(-50%);
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
-  height: 47%;
   width: 3px;
-  border: 2px solid #452f07;
+}
+
+#second-hand{
+  border: 2px solid #a31800;
+  height: 47%;
+}
+
+#minute-hand{
+  border: 2px solid #351d18;
+  height: 47%;
+}
+
+#hour-hand{
+  border: 2px solid #107028;
+  height: 35%;
 }
